@@ -3,15 +3,15 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Latitude Analysis</title>
+  <title>Latitude Analysis: Max Temp</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
   <!-- navigation -->
   <nav class="navcolor navbar navbar-expand-lg navbar-dark">
-    <a class="active navbar-brand" href="index.html">Latitude</a>
+    <a class="navbar-brand" href="../index.html">Latitude</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -21,23 +21,24 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Plots
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="Visuals_Pages/max_temp.html">Max Temperature</a>
-            <a class="dropdown-item" href="Visuals_Pages/humidity.html">Humidity</a>
-            <a class="dropdown-item" href="Visuals_Pages/cloudiness.html">Cloudiness</a>
-            <a class="dropdown-item" href="Visuals_Pages/wind_speed.html">Wind Speed</a>
+          <div class="active dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link navbar" href="other_pages/comparison.html">Comparison<span class="sr-only">(current)</span></a>
+          <a class="nav-link navbar" href="../other_pages/comparison.html">Comparison<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navtext" href="other_pages/data.html">Data</a>
+          <a class="nav-link navtext" href="../other_pages/data.html">Data</a>
         </li>
       </ul>
     </div>
   </nav>
 
+  
   <div class="container mt-3">
     <div class="row">
       <!-- summary -->
@@ -59,26 +60,26 @@
               <div class="row rowpadding">
                     <!-- temp -->
                     <div class="padding col-md-6 col-sm-3">
-                      <div class=" thumbnail">
-                        <a href="Visuals_Pages/max_temp.html"><img src="Visualizations/Fig1.png" alt="Latitude vs. Temp" class="img-thumbnail"></a>
+                      <div id="currentbox" class=" thumbnail">
+                        <a href="max_temp.html"><img src="../Visualizations/Fig1.png" alt="Latitude vs. Temp" class="img-thumbnail"></a>
                       </div>
                     </div>
                     <!-- humidity -->
                     <div class="padding col-md-6 col-sm-3">
                       <div class=" thumbnail">
-                        <a href="Visuals_Pages/humidity.html"><img src="Visualizations/Fig2.png" alt="Latitude vs. Humidity" class="img-thumbnail"></a>
+                        <a href="humidity.html"><img src="../Visualizations/Fig2.png" alt="Latitude vs. Humidity" class="img-thumbnail"></a>
                       </div>
                     </div>
                     <!-- cloudiness -->
                     <div class="padding col-md-6 col-sm-3">
                       <div class=" thumbnail">
-                        <a href="Visuals_Pages/cloudiness.html"><img src="Visualizations/Fig3.png" alt="Latitude vs. Cloudiness" class="img-thumbnail"></a>
+                        <a href="cloudiness.html"><img src="../Visualizations/Fig3.png" alt="Latitude vs. Cloudiness" class="img-thumbnail"></a>
                       </div>
                     </div>
                     <!-- wind speed -->
                     <div class="padding col-md-6 col-sm-3">
                       <div class=" thumbnail">
-                        <a href="Visuals_Pages/wind_speed.html"><img src="Visualizations/Fig4.png" alt="Latitude vs. Wind Speed" class="img-thumbnail"></a>
+                        <a href="wind_speed.html"><img src="../Visualizations/Fig4.png" alt="Latitude vs. Wind Speed" class="img-thumbnail"></a>
                       </div>
                     </div>
                 </div>
