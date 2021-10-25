@@ -6,16 +6,12 @@
   background-color: #e9ecef;
   border-radius: 0.3rem;
 }
-.rowpadding{
-  padding: 8px;
-}
 .navcolor {
   background-color:#040481;
 }
 .textcenter{
   text-align: center;
 }
-
 #currentbox {
   border-color: #040481;
   border-style: solid;
