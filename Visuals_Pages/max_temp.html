@@ -21,8 +21,8 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Plots
           </a>
-          <div class="active dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="active dropdown-item" href="max_temp.html">Max Temperature</a>
             <a class="dropdown-item" href="humidity.html">Humidity</a>
             <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
             <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
@@ -43,13 +43,14 @@
     <div class="row">
       <!-- summary -->
       <div class="col-md-8">
-        <div class="container">
-          <div class="jumbotron">
-            <h1 class="display-4">Summary: Latitude vs. X</h1>
-            <hr class="my-4">
-            <p>Here we can display some more text!</p>
-          </div>
+        <div class="padding2 mb-3">
+          <h1 class="display-4">Summary: Latitude vs. Temperature</h1>
+          <hr class="my-4">
+          <p>We can see from the graph that maximum temperature tends to be higher closer to the equator (0 Deg. Latitude). 
+            Additionally, the southern hemisphere (less than 0 Deg. Latitude) tends to be warmer than the northern hemisphere.</p>
+          <img class="w-100" src="../Visualizations/Fig1.png" alt="Latitude vs. Temp">
         </div>
+        
       </div>
       <!-- side nav bar -->
       <div class="col-md-4">
@@ -61,7 +62,7 @@
                     <!-- temp -->
                     <div class=" col-md-6 col-sm-3">
                       <div id="currentbox" class="padding thumbnail">
-                        <a href="max_temp.html"><img src="../Visualizations/Fig1.png" alt="Latitude vs. Temp" class="img-thumbnail"></a>
+                        <a  href="max_temp.html"><img src="../Visualizations/Fig1.png" alt="Latitude vs. Temp" class="img-thumbnail"></a>
                       </div>
                     </div>
                     <!-- humidity -->
