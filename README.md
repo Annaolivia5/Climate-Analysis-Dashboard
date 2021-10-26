@@ -1,6 +1,6 @@
 # Web-Design-Challenge
 
-In this project HTML and CSS were used to create a visualiztion dashboard, to present plots and data anylses. The dashboard was deployed through github pages and can be viewed at the following link:
+In this project HTML and CSS/Bootstrap were used to create a visualiztion dashboard, to present plots and data anylses. The dashboard was deployed through github pages and can be viewed at the following link:
 
 https://annaolivia5.github.io/Web-Design-Challenge/
 
