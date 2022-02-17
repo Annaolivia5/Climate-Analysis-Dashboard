@@ -1,4 +1,4 @@
-# Web-Design-Challenge
+# Climate-Analysis-Dashboard
 
 In this project HTML and CSS/Bootstrap were used to create a visualiztion dashboard, to present plots and data anylses. The dashboard is deployed through github pages and can be viewed at the following link:
 
